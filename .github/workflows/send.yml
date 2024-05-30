@@ -27,4 +27,5 @@ jobs:
           
       - name: 
         run: |
+          pip install requests
           python3 main.py ${{ secrets.DISCORD_WEBHOOK }}
